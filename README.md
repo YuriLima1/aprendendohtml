@@ -1,3 +1,4 @@
+<script>
 <title></title>Esse comando serve para ser o titulo do site.
 <head></head>Esse comando vai providenciar informarções sobre o documento, incluindo seu título e links.
 <body></body>Esse comando contém um corpo de um documento HTML, que vai ser exibido na janela do site.
@@ -13,3 +14,4 @@ background-color: ;Esse comando serve para mudar a cor do fundo de um texto.
 color: ;Esse comando serve para mudar a cor das letras do texto.
 <body style="background-color: ">Esse comando serve para mudar a cor do fundo do site.
 text-align: ;Esse comando serve para alinhar um texto.
+</script>
