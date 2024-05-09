@@ -8,6 +8,7 @@
 <ul></ul>Esse comando é uma Lista Não Ordenada.
 <a href=""></a>Esse comando é para inserir um arquivo.
 <img src="" alt="">Esse comando serve para inserir o uma imagem. Já o ALT é para inserir o nome da imagem para o cliente saber o que significa a imagem.
+<input type="checkbox">Esse comando vai definir uma caixa de seleção.
 <li></li>Esse comando representa um item em uma Lista Ordenada ou Não Ordenada.
 <style></style>Esse comando contém as informações do estilo de um documento ou de uma parte do documento.
 background-color: ;Esse comando serve para mudar a cor do fundo de um texto.
@@ -21,5 +22,8 @@ padding-right: ;Esse comando vai definir o preenchimento da direita.
 <main></main>Esse comando vai especificar o conteûdo principal de um documento.
 <footer></footer>Esse comando vai representar um rodapé.
 <hr></hr>Esse comando vai separar um conteûdo um do outro.
-<br></br>Esse comando 
+<br></br>Esse comando vai quebrar uma linha.
+<tr></tr>Esse comando vai definir uma linha em uma tabela.
+<table></table>Esse comando vai criar uma tabela.
+<td></td>Esse comando vai definir uma célula de dados padrão de uma tabela.
 </script>
