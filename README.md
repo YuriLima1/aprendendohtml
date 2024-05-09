@@ -14,4 +14,12 @@ background-color: ;Esse comando serve para mudar a cor do fundo de um texto.
 color: ;Esse comando serve para mudar a cor das letras do texto.
 <body style="background-color: ">Esse comando serve para mudar a cor do fundo do site.
 text-align: ;Esse comando serve para alinhar um texto.
+padding-left: ;Esse comando vai definir o preenchimento da esquerdo.
+padding-right: ;Esse comando vai definir o preenchimento da direita.
+<header></header>Esse comando é um cabeçalho.
+<nav></nav>Esse comando é um conjunto de links de navegação.
+<main></main>Esse comando vai especificar o conteûdo principal de um documento.
+<footer></footer>Esse comando vai representar um rodapé.
+<hr></hr>Esse comando vai separar um conteûdo um do outro.
+<br></br>Esse comando 
 </script>
