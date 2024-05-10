@@ -26,4 +26,15 @@ padding-right: ;Esse comando vai definir o preenchimento da direita.
 <tr></tr>Esse comando vai definir uma linha em uma tabela.
 <table></table>Esse comando vai criar uma tabela.
 <td></td>Esse comando vai definir uma célula de dados padrão de uma tabela.
+<textarea></textarea>Esse comando vai definir um controle  de entrada  de texto multilinha.
+<div class=" "></div>Esse comando é uma forma de identificar um grupo de elementos.
+<fieldset></fieldset>Esse comando vai ser usado para agrupar os elementos que estão relacionados em um formulário.
+<label></label>Esse comando representa uma legenda para um item em uma interface de usuário.
+<datalist></datalist>Esse comando vai mostrar uma lista de elementos predefinidos como opção para uma caixa de entrada de texto.
+<button></button>Esse comando vai definir um botão clicavel.
+<option>Esse comando vai definir uma opção em uma lista de seleção.
+<optgroup></optgroup>Esse comando é usado para agrupar opções relacionados em um elemento <select>.
+<select></select>Esse comando é usado para criar uma lista suspensa.
+<legend></legend>Esse comando vai definir uma legenda para o elemento <fieldset>.
+<form action=" "></form>Esse comando vai especificar para onde vai enviar os dados do formulário quando o formulário é enviado.
 </script>
