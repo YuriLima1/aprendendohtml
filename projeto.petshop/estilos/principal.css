@@ -9,6 +9,11 @@ h1 {
 }
 h2 {
     font-size: 1.75em; /* 28/16=1.75 */
+    background: #C0262C url(../multimidia/back-bolinha.gif) repeat top center;
+    color: #fff;
+    letter-spacing: .1em;
+    padding: 7px;
+    width: 316px;
 }
 p {
     font-size: 1.1em;
@@ -58,4 +63,51 @@ th, td {
 }
 #produtos tr:hover {
     background-color: #FEFF76;
+}
+form {
+    background-color: #999;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 0 15px;
+}
+input[type="submit"] {
+    background-color: #C0262C;
+    background: linear-gradient(to bottom, #6b1516 0%, #C0262C 30%, #C0262C 70%, #6b1516 100%);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px #000;
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 7px;
+    float: left;
+    width: 60px;
+}
+input#nome, input#email {
+    background-color: transparent;
+    border: none;
+    border-bottom: #000 solid 1px;
+    font-size: 1.2em;
+    color: #fff;
+    width: 800px;
+}
+::-webkit-input-placeholder { /* Chrome/Safari/Opera */
+    color: #ddd;
+    font-style: italic;
+    font-size: .8em;
+}
+::-moz-placeholder { /* Firefox */
+    color: #ddd;
+    font-style: italic;
+    font-size: .8em;
+}
+:-ms-input-placeholder { /* IE */
+    color: #ddd;
+    font-style: italic;
+    font-size: .8em;
 }
