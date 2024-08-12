@@ -9,6 +9,10 @@ h1 {
 }
 h2 {
     font-size: 1.75em; /* 28/16=1.75 */
+    background-color: #C0262C url(../multimidia/back-bolinha.gif) repeat top center;
+    color: #fff;
+    letter-spacing: .1em;
+    width: 316px;
 }
 p {
     font-size: 1.1em;
