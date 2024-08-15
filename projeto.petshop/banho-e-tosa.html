@@ -3,9 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Meu amigo cão</title>
+<link href="estilos/principal.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body id="banhoEtosa">
 <a href="index.html">Home</a>
 <h1> Agendamento para banho e tosa </h1>
 <h2> Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
@@ -32,9 +33,9 @@
 <p><label for="nome_animal">Nome:</label> <input type="text" name="nome_animal" id="nome_animal"  size = "25" maxlength="40" placeholder="Digite o nome do animal"/></p>
 
 <p> Porte do cão:
-<input type="radio" name="porte_animal" id="animal_pequeno" value="animal_pequeno" checked> pequeno
-<input type="radio" name="porte_animal" id="animal_medio" value="animal_medio" > médio
-<input type="radio" name="porte_animal" id="animal_grande" value="animal_grande"> grande
+<input type="radio" name="porte_animal" id="animal_pequeno" value="animal_pequeno" checked><label for="animal_pequeno" class="labelSimples">pequeno</label>
+<input type="radio" name="porte_animal" id="animal_medio" value="animal_medio" checked><label for="animal_medio" class="labelSimples">médio</label>
+<input type="radio" name="porte_animal" id="animal_grande" value="animal_grande" checked><label for="animal_grande" class="labelSimples">grande</label>
 </p>
 
 <p>
@@ -58,11 +59,21 @@ Tipo de tosa:
 <fieldset id="ident_marcacao"> 
 <legend> Horário - (Não atendemos de domingo e segunda-feira) </legend>
 <p>Indique os dias da semana de sua preferência:<br>
-<input type="checkbox" name="semana" value="idterca"/> Terça-feira
-<input type="checkbox" name="semana" value="idquarta"/> Quarta-feira
-<input type="checkbox" name="semana" value="idquinta"/> Quinta-feira
-<input type="checkbox" name="semana" value="idsexta"/> Sexta-feira
-<input type="checkbox" name="semana" value="idsabado"/> Sábado-feira
+<input type="checkbox" name="semana" value="idterca" id="idterca"/> 
+<label for="idterca" class="labelSimples">Terça-feira</label>
+
+<input type="checkbox" name="semana" value="idquarta" id="idquarta"/> 
+<label for="idterca" class="labelSimples">Quarta-feira</label>
+
+<input type="checkbox" name="semana" value="idquinta" id="idquinta"/> 
+<label for="idquarta" class="labelSimples">Quinta-feira</label>
+
+<input type="checkbox" name="semana" value="idsexta" id="idsexta"/> 
+<label for="idsexta" class="labelSimples">Sexta-feira</label>
+
+<input type="checkbox" name="semana" value="idsabado" id="idsabado"/> 
+<label for="idsabado" class="labelSimples">Sábado-feira</label>
+
 </p>
 
 <p>Primeira opção de horário:
