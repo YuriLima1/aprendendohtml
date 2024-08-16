@@ -1,14 +1,14 @@
-/* Estrutura */
+
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
-main h1 {
+h1 {
     color: #C0262C;
     font-size: 2.5em; /* 40/16=2.5 */ 
     border-bottom: #C0262C solid thin;
     padding-bottom: 7px;
 }
-main h2 {
+h2 {
     font-size: 1.75em; /* 28/16=1.75 */
     background: #C0262C url(../multimidia/back-bolinha.gif) repeat top center;
     color: #fff;
@@ -16,18 +16,18 @@ main h2 {
     padding: 7px;
     width: 316px;
 }
-main p {
+p {
     font-size: 1.1em;
     line-height: 1.3em;
     text-align: justify;
 }
-main h2+p:first-line {
+p:first-line {
     font-size: 1.17em;
     font-variant: small-caps;
     font-weight: bolder;
     font-style: italic;
 }
-main hr {
+hr {
     border-color: #C0262C;
 }
 /* Página Produtos - Tabela */
@@ -174,11 +174,49 @@ input#nome, input#email {
     /* 21/16=1.3125em */
     letter-spacing: .07em;
 }
-/* Página Quem Somos */
+/* Página quem somos */
 #quemSomos img {
     float: left;
     margin: 0 20px 20px 0;
     padding: 10px;
     border: solid #C0262C thin;   
     background-color: #fff;
+}
+/* Textos da Aréa Principal */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+main h1 {
+    color: #C0262C;
+    font-size: 2.5em; /* 40/16=2.5 */
+    border-bottom: #C0262C solid thin;
+    padding-bottom: 7px;
+}
+main h2 {
+    font-size: 1.75em; /* 28/16=1.75 */
+    background: #C0262C url(../multimidia/back-bolinha.gif) repeat top center;
+    color: #fff;
+    letter-spacing: .1em;
+    padding: 7px;
+    width: 316px;
+}
+main p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+} 
+main h2+p:first-line {
+    font-size: 1.17em;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-style: italic;
+}
+main hr {
+    border-color: #C0262C;
+}
+/* Estrutura */
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
