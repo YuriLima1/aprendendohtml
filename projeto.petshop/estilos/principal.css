@@ -179,7 +179,11 @@ input#nome, input#email {
     /* 21/16=1.3125em */
     letter-spacing: .07em;
 }
+<<<<<<< HEAD
 /* Página Quem Somos */
+=======
+/* Página quem somos */
+>>>>>>> e091a7823097007d5de5b0f86c3028a36c1e4995
 #quemSomos img {
     float: left;
     margin: 0 20px 20px 0;
@@ -187,6 +191,7 @@ input#nome, input#email {
     border: solid #C0262C thin;   
     background-color: #fff;
 }
+<<<<<<< HEAD
 /* Textos da Aréa Principal */
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -219,3 +224,6 @@ main h2+p:first-line {
 main hr {
     border-color: #C0262C;
 }
+=======
+/* textos da aréa principal */
+>>>>>>> e091a7823097007d5de5b0f86c3028a36c1e4995
