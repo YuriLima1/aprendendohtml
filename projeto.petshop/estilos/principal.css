@@ -1,19 +1,117 @@
 /* Estrutura */
 body {
-    width: 1000px;  /*Serve para aumentar a largura*/
-    margin-left: auto;  /*centraliza o conteudo para a esquerda*/
-    margin-right: auto; /*Centraliza o conteudo para a direita*/
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
+header h1 {
+    width: 240px;
+    float: left;
+    background-image: url(../multimidia/meu-amigo-cao-petshop-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    text-indent: -1000px;
+    margin-bottom: 0px;
+}
+header #anuncio {
+    width: 510px;
+    float: left;
+    margin: 80px auto auto;
+    padding-top: 0px;
+}
+header section {
+    padding-top: 70px;
+}
+header section a[href="boletim.html"] {
+    border: solid #C0262C thin;
+    padding: 15px;
+    border-radius: 15px;
+    color: #C0262C;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+header section p {
+    color: #999999;
+    margin: 33px auto 7px;
+}
+header section figure {
+    width: 100%;
+    margin: 0%;
+}
+header section figure a {
+    padding: 25px 5px 0;
+    border: none;
+}
+header section figure a:first-child {
+    padding: 25px 5px 0 0;
+}
+header section figure a:last-child {
+    padding: 25px 0 0 5px;
+}
+/* Estrutura de Navegação */
+nav {
+    background-color: #000;
+    overflow: auto;
+    clear: both;
+    margin-top: 10px;
+}
+nav ul {
+    list-style: none;
+     padding-left: 0px;
+     margin-top: 1px;
+}
+nav ul li {
+    float: left;
+}
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 50px;
+    line-height:  2em;
+}
+#inicial a[href="index.html"],
+#quemSomos a[href="quem-somos.html"],
+#produtos a[href="produtos.html"],
+#banhoEtosa a[href="banho-e-tosa.html"],
+#curiosidades a[href="curiosidades.html"] {
+    background-color: #C0262C;
+}
+/* Estrutura Página Inicial */
+#inicial aside {
+    width: 230px;
+    float: left;
+    margin-top: 30px;
+}
+#inicial main {
+    width: 490px;
+    float: left;
+    margin: 30px 25px 10px;
+}
+/* Rodapé */
+footer {
+    clear: both;
+    border-top: 7px solid #999;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    margin: 0px;
+}
+/* Textos da Área Principal */
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
-h1 {
+main h1 {
     color: #C0262C;
     font-size: 2.5em; /* 40/16=2.5 */ 
     border-bottom: #C0262C solid thin;
     padding-bottom: 7px;
 }
-h2 {
+main h2 {
     font-size: 1.75em; /* 28/16=1.75 */
     background: #C0262C url(../multimidia/back-bolinha.gif) repeat top center;
     color: #fff;
@@ -21,18 +119,18 @@ h2 {
     padding: 7px;
     width: 316px;
 }
-p {
+main p {
     font-size: 1.1em;
     line-height: 1.3em;
     text-align: justify;
 }
-p:first-line {
+main h2+p:first-line {
     font-size: 1.17em;
     font-variant: small-caps;
     font-weight: bolder;
     font-style: italic;
 }
-hr {
+main hr {
     border-color: #C0262C;
 }
 /* Página Produtos - Tabela */
@@ -182,8 +280,7 @@ input#nome, input#email {
 /* Página quem somos */
 #quemSomos img {
     float: left;
-    margin: 0 20px 20px 0;
-    padding: 10px;
+    margin: 0 2px 20px 0;
     border: solid #C0262C thin;   
     background-color: #fff;
 }
