@@ -1,3 +1,9 @@
+/* Estrutura */
+body {
+    width: 1000px;  /*Serve para aumentar a largura*/
+    margin-left: auto;  /*centraliza o conteudo para a esquerda*/
+    margin-right: auto; /*Centraliza o conteudo para a direita*/
+}
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
