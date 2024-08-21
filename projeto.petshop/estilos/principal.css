@@ -309,3 +309,15 @@ input#nome, input#email {
     -o-transform: rotate(30deg);
     transform: rotate(30deg);
 }
+/* Transição em Caixas - 3caixas de 163x230 */
+.anuncioAnime {
+    margin: 0 0 10px; padding: 0;
+    overflow: auto;
+}
+.anuncioAnime {
+    width: 163px; height: 230px;
+    border-bottom: solid thin #C0262C;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
