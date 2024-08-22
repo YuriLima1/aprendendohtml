@@ -314,10 +314,39 @@ input#nome, input#email {
     margin: 0 0 10px; padding: 0;
     overflow: auto;
 }
-.anuncioAnime {
+.anuncioAnime .boxAnuncio {
     width: 163px; height: 230px;
     border-bottom: solid thin #C0262C;
     float: left;
     position: relative;
     overflow: hidden;
 }
+.anuncioAnime .boxAnuncio p {
+    text-align: center;
+    font-size: .95em;
+    line-height: 1.3em;
+    background-color: rgba(255, 255, 255, 1);
+    border-left: solid thin #C0262C;
+    border-right: solid thin #C0262C;
+    margin: 0;
+    padding: 7px 15px;
+    position: absolute;
+    bottom: -83px; left: 0;
+    transition: 1s linear 0.1s; cursor: default;
+}
+.anuncioAnime .boxAnuncio p:first-line {
+    font-size: 1.1em;
+    font-variant: inherit;
+    font-style: normal;
+    font-weight: bolder;
+    color: #C0262C;
+    padding: 0;
+}
+.anuncioAnime .boxAnuncio p:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    bottom: 0;
+}
+/* Controle de Áudio */
+aside audio {width: 230px;}
+/* Controle de Vídeo */
+aside video {width: 230px;}
