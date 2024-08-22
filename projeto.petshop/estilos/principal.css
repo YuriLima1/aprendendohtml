@@ -284,3 +284,40 @@ input#nome, input#email {
     border: solid #C0262C thin;   
     background-color: #fff;
 }
+/* Página Obrigado */
+#obrigado main p img {
+    float: left;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+    border: solid #C0262C thin;
+    background-color: #fff;
+}
+#destaqueObrigado {
+    position: relative;
+    border: solid #C0262C 1px;
+    border-radius: 0 25px;
+    padding: 5px 25px;
+    margin: 20px 0;
+}
+#obrigado #lacinho {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+/* Transição em Caixas - 3caixas de 163x230 */
+.anuncioAnime {
+    margin: 0 0 10px; padding: 0;
+    overflow: auto;
+}
+.anuncioAnime {
+    width: 163px; height: 230px;
+    border-bottom: solid thin #C0262C;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
