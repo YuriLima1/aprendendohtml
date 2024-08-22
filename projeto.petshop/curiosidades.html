@@ -3,100 +3,124 @@
 <html lang="pt-br">
 
 
-<head> 
+<head>
 
-<meta charset="utf-8">
+	<meta charset="utf-8">
 
-<title>Meu amigo cão - Petshop</title>
-<link href="estilos/principal.css" rel="stylesheet" type="text/css">
-<style>
-#curiosidades main h2 {
-    background-color: #C0262C;
-    background-image: url(multimidia/importante-saber.jpg), url(multimidia/back-bolinha.gif);
-    background-repeat: no-repeat, repeat;   /*background-repeat= Vai definir como uma imagem de fundo sera repetida.*/ 
-    background-position: center right, center center;   /*background-position= Vai definir a posição inicial de uma imagem de fundo.*/
-    color: #FFFFFF;
-    font-size: 2.5em;  /*font-size= Vai definir o tamanho do texto.*/
-    letter-spacing: .1em;  /*letter-spacing= Ele vai aumentar ou diminuir o espaço entre os caracteres de um texto.*/
-    width: 470px;
-    padding: 61px 400px 61px 100px;   /*padding= Ele vai criar espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas.*/
-}
-#curiosidades main figure { /*figure= Serve para marcar uma foto em um documento.*/
-        border: #C0262C solid thin;   /*border= Ele vai permitir especificar o estilo, a largura e a cor de um elemento.*/
-        border-radius: 35px 35px 0 0;  /*border-radius= Vai definir os raios dos cantos do elemento.*/
-        padding: 20px 0 0;
-        text-align: center;  /*text-align= Vai especificar o alinhamento horizontal do texto em um elemento.*/
-}
-#curiosidades main figcaption {  /*figcaption= Vai definir uma legenda para um elemento <figure>.*/
-            background-color: #C0262C;
-            padding: 7px 0;
-            color: #FFFFFF;
-            font-size: 1.5em;
-}
-#curiosidades main ul li {
-    list-style-type: none;
-    list-style-image: url(multimidia/ossinho.png);
-list-style-position: inside;
-    margin: 30px 0;
-}
-#curiosidades main dt {    /*dt= Termo da Definição.*/
-    color: #fff;
-    background-color: #C0262C;
-    padding: 7px;   
-}
-#curiosidades main dd {  /*dd= Dado da Definição.*/
-    border: thin #C0262C solid;
-    border-radius: 0 0 25px 25px;
-    margin-top: -3px;
-    margin-bottom: 30px;
-    padding: 20px 20px 0;
-}
-#curiosidades main ol {
-    list-style-type: none;
-    white-space: pre;
-    line-height: .9em;
-    /* Definir a variável de contagem */
-    counter-reset: contador;
-}
-#curiosidades main ol li:before {
-    color: #800800;
-    /* Incrementar a variável em 1 */
-    counter-increment: contador;
-    /* Usar o número do contador como conteúdo */
-    content: "Questão " counter(contador) " \00BB  ";
-}
-#curiosidades main ul li a {
-    text-decoration: none;
-    color: #C0262C;
-    font-weight: bold;
-    padding: 7px;
-}
-#curiosidades main ul li a:hover {
-    text-decoration: underline;
-}
-#curiosidades main dd a[target="_blank"] {
-     text-decoration: none;
-     color: #C0262C;
-     font-weight: bold;
-     padding: 7px;
-     display: inline-block;
-}
-#curiosidades main dd a[target="_blanck"]:hover {
-    text-decoration: underline;
-}
-#curiosidades main dd a[href="#top"] {
-    text-decoration: none;
-    color: #C0262C;
-    font-weight: bold;
-    padding: 7px 0 7px 30px;
-    background: url(multimidia/seta-voltar.png) no-repeat left center;
-}
-#curiosidades main dd a[href="#top"]:hover {
-    text-decoration: underline;
-    background: url(multimidia/seta-voltar-hover.png) no-repeat left center; 
-}
+	<title>Meu amigo cão - Petshop</title>
+	<link href="estilos/principal.css" rel="stylesheet" type="text/css">
+	<style>
+		#curiosidades main h2 {
+			background-color: #C0262C;
+			background-image: url(multimidia/importante-saber.jpg), url(multimidia/back-bolinha.gif);
+			background-repeat: no-repeat, repeat;
+			/*background-repeat= Vai definir como uma imagem de fundo sera repetida.*/
+			background-position: center right, center center;
+			/*background-position= Vai definir a posição inicial de uma imagem de fundo.*/
+			color: #FFFFFF;
+			font-size: 2.5em;
+			/*font-size= Vai definir o tamanho do texto.*/
+			letter-spacing: .1em;
+			/*letter-spacing= Ele vai aumentar ou diminuir o espaço entre os caracteres de um texto.*/
+			width: 470px;
+			padding: 61px 400px 61px 100px;
+			/*padding= Ele vai criar espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas.*/
+		}
 
-</style>
+		#curiosidades main figure {
+			/*figure= Serve para marcar uma foto em um documento.*/
+			border: #C0262C solid thin;
+			/*border= Ele vai permitir especificar o estilo, a largura e a cor de um elemento.*/
+			border-radius: 35px 35px 0 0;
+			/*border-radius= Vai definir os raios dos cantos do elemento.*/
+			padding: 20px 0 0;
+			text-align: center;
+			/*text-align= Vai especificar o alinhamento horizontal do texto em um elemento.*/
+		}
+
+		#curiosidades main figcaption {
+			/*figcaption= Vai definir uma legenda para um elemento <figure>.*/
+			background-color: #C0262C;
+			padding: 7px 0;
+			color: #FFFFFF;
+			font-size: 1.5em;
+		}
+
+		#curiosidades main ul li {
+			list-style-type: none;
+			list-style-image: url(multimidia/ossinho.png);
+			list-style-position: inside;
+			margin: 30px 0;
+		}
+
+		#curiosidades main dt {
+			/*dt= Termo da Definição.*/
+			color: #fff;
+			background-color: #C0262C;
+			padding: 7px;
+		}
+
+		#curiosidades main dd {
+			/*dd= Dado da Definição.*/
+			border: thin #C0262C solid;
+			border-radius: 0 0 25px 25px;
+			margin-top: -3px;
+			margin-bottom: 30px;
+			padding: 20px 20px 0;
+		}
+
+		#curiosidades main ol {
+			list-style-type: none;
+			white-space: pre;
+			line-height: .9em;
+			/* Definir a variável de contagem */
+			counter-reset: contador;
+		}
+
+		#curiosidades main ol li:before {
+			color: #800800;
+			/* Incrementar a variável em 1 */
+			counter-increment: contador;
+			/* Usar o número do contador como conteúdo */
+			content: "Questão " counter(contador) " \00BB  ";
+		}
+
+		#curiosidades main ul li a {
+			text-decoration: none;
+			color: #C0262C;
+			font-weight: bold;
+			padding: 7px;
+		}
+
+		#curiosidades main ul li a:hover {
+			text-decoration: underline;
+		}
+
+		#curiosidades main dd a[target="_blank"] {
+			text-decoration: none;
+			color: #C0262C;
+			font-weight: bold;
+			padding: 7px;
+			display: inline-block;
+		}
+
+		#curiosidades main dd a[target="_blanck"]:hover {
+			text-decoration: underline;
+		}
+
+		#curiosidades main dd a[href="#top"] {
+			text-decoration: none;
+			color: #C0262C;
+			font-weight: bold;
+			padding: 7px 0 7px 30px;
+			background: url(multimidia/seta-voltar.png) no-repeat left center;
+		}
+
+		#curiosidades main dd a[href="#top"]:hover {
+			text-decoration: underline;
+			background: url(multimidia/seta-voltar-hover.png) no-repeat left center;
+		}
+	</style>
 </head>
 
 
@@ -146,7 +170,7 @@ list-style-position: inside;
 
 	</nav>
 
-    <main>
+	<main>
 
 		<h1>
 			Qual a melhor raça de cachorros para crianças?
