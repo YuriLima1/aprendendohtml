@@ -1,0 +1,254 @@
+/*configs gerais*/
+body{
+    background-color: #FAFFF5;
+}
+
+/* home config*/
+#home{
+    margin: 0 160px 0 160px;
+    margin-top: 50px;
+}
+
+#home #logo{
+    /* a logo que fica no home*/
+    margin: 0 0 40px 350px;
+}
+
+#apresentacao {
+    font-size: 1.19em;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+#home #foto1{
+    display: flex;
+}
+#home #foto1 #foto{
+    border: solid 1px #034F0A;
+    padding: 15px 15px 10px 15px;
+    border-radius: 8px;
+}
+
+#home #foto1 #foto p{
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home #foto1 #faixada{
+    height: 300px;
+    width: 450px;
+    border-radius: 8px;
+}
+#home #foto1 #texto{
+    margin-left: 60px;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#home #foto1 #texto p:hover{
+    color: #034F0A;
+    font-size: 105%;
+}
+
+/*config dicas*/
+
+#dicas #tableDicas1, #dicas #tableDicas2{
+    border:solid 2px #F6A507;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px ;
+    width: 450px;
+}
+#dicas #tableDicas1{
+    margin-left: 190px;
+    margin-right: 75px;
+}
+
+#dicas #conteiner td {
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: .03em;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#dicas #conteiner #titulo {
+    border: 2px solid #F6A507;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dicas #conteiner{
+    display: flex;
+}
+
+#dicas #conteiner strong {
+    font-size: 110%;
+}
+
+/*header config*/
+
+header{/*config geral do header*/
+    background-color: #034F0A;
+    height: 60px;
+    width: 101.35%;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+}
+
+header #logo{/*a logo que fica no header*/
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+/*butão de login*/
+#login{
+    font-size: 1.2em;
+    font-family: arial;
+    margin-top: 15px;
+   
+}
+ 
+header #login #link {
+    text-decoration: none;
+    color:#fff;
+}
+
+header #login #link:hover{
+    color: #FFF086;
+}
+
+/*config navbar*/
+#navbar #nav {
+   
+    margin-right: 45px;
+    margin-left: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-size: 0.9em;
+}
+#navbar #nav:hover {
+    color: #FFF086;
+}
+   
+header #navbar {
+    margin-top: 27px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 15px;
+    padding-right: 55px;
+    padding-left: 60px;
+    border-top: 2px solid #034F0A;
+    border-bottom: 2px solid #034F0A;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    height: 63px;
+   
+}
+
+
+/*footer config*/
+footer {
+    background-color: #034F0A;
+    display: flex;
+    width: auto;
+    height: 170px;
+    margin-bottom: -8px;
+}
+
+footer #titulo {
+    font-size: 1.4em;
+    color: white;
+    
+}
+
+/*editando links para seção de ajuda*/
+footer #perguntas {
+    margin-left: 150px;
+}
+
+footer #links {
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+footer #links:hover {
+    color: #FFF086;
+}
+
+/*logo do footer*/
+footer #logo {
+  
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*editando os links externos*/
+#linksfora #linkfoo {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#linksfora #linkfoo:hover, footer #linksfora #Emailbotum:hover {
+    color: #FFF086;
+}
+
+footer #linksfora #Emailbotum {
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    border: none; 
+    text-decoration: none; 
+    font-size: 1em; 
+    color: white;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+
+/* ageitando a grade de links esternos*/
+footer #linksfora #linkfoo #facefoo, 
+footer #linksfora #linkfoo #instfoo, 
+footer #linksfora #linkfoo #whatfoo, 
+footer #linksfora #Emailfoo{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+/* adicionando cada um dos icones de outras paginas no footer */
+
+footer #linksfora #linkfoo #facefoo{
+    list-style-image: url('../multimidia/icones/facebook.png');
+
+}
+
+footer #linksfora #linkfoo #instfoo{
+    list-style-image: url('../multimidia/icones/instagram.png');
+}
+
+footer #linksfora #linkfoo #whatfoo{
+    list-style-image: url('../multimidia/icones/whatsapp.png');
+}
+
+footer #linksfora #Emailfoo {
+    list-style-image: url('../multimidia/icones/gmail.png');
+    
+}
+
+
+
