@@ -82,6 +82,11 @@
         border-color: #000;
         color: black;
     }
+    .marcas a {
+        color: #03740E;
+        font-family: Arial;
+        padding: 5px;
+    }
 </style>
 
 <body>
@@ -103,6 +108,9 @@
             <a href="#">Adubos / Terras</a>
         </div>
     </div>
-
+    <div class="marcas">
+        <a href="#"><strong>Marcas Famosas</strong></a>
+    </div>
+    
 </body>
 </html>
